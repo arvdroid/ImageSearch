@@ -19,3 +19,5 @@ Optional:
 
 1. Robust error handling, check if internet is available, handle error cases, network failures.
 2. User can share an image to their friends or email it to themselves.
+
+![video walkthrough](imageSearch.gif)
