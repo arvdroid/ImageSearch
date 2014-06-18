@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.imagesearch.ImageSearchMain">
+
+    <Button
+        android:id="@+id/searchQButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onSearchClick"
+        android:background="@drawable/ic_search"
+        />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/searchQButton"
+        android:layout_alignBottom="@+id/searchQButton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:hint="@string/searchEditTextHint"
+        android:layout_toLeftOf="@+id/searchQButton"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <GridView
+        android:id="@+id/searchResultsGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/searchQButton"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"        
+        android:numColumns="3" >
+
+    </GridView>
+    
+    </RelativeLayout>

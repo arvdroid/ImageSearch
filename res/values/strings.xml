@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageSearch</string>
+    <string name="action_settings">Settings</string>
+    <string name="searchButton">Search</string>
+    <string name="searchEditTextHint">Search Term</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="searchOptionsLabel">Advanced Search Options</string>
+    <string name="img_size_label">Image Size</string>
+    <string name="img_type_label">Image Type</string>
+    <string name="img_color_label">Image Color</string>
+    <string name="img_sitefilter_label">Site Filter</string>
+    <string name="default_button_label">Default</string>
+    <string name="save_button_label">Save</string>
+    <string name="title_activity_full_image_view">Full Image View</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
