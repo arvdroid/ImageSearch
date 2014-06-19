@@ -39,7 +39,14 @@
         android:layout_below="@+id/searchQButton"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"        
-        android:numColumns="3" >
+        android:numColumns="auto_fit"
+        android:columnWidth="75dp"
+        android:background="@android:color/darker_gray"
+    	android:horizontalSpacing="2dp"
+    	android:verticalSpacing="2dp"
+    	android:drawSelectorOnTop="true"
+		android:stretchMode="columnWidth"
+    	android:gravity="center" >
 
     </GridView>
     
